@@ -1,0 +1,76 @@
+/* navbar */
+
+/* fonts */
+h3 {
+  font-size: 21px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+h5 {
+  color: #212529;
+  font-weight: 300px;
+}
+p {
+  font-size: 13px;
+  font-weight: 300;
+  color: #707070;
+}
+.icons--fonts {
+  font-size: 9px;
+}
+
+.bg--success {
+  background-color: #28a745;
+}
+
+/* card */
+.font-style {
+  font-weight: 300;
+  color: #707070;
+}
+.font-style--promo {
+  font-size: 20px;
+  font-weight: 500;  ;
+  color: #28a745;
+}
+
+/* form */
+
+.section__form {
+  height: 15rem;
+}
+.btn {
+  background-color: #f8f9fa;
+  border: #dddddd 1px solid;
+  color: #212529;
+  font-weight: 500;
+  width: 7rem;
+}
+
+/* footer */
+
+.logo__footer {
+  width: 5.1rem;
+  height: 1.5rem;
+}
+
+.logo__footer--fonts {
+  font-size: 16px;
+}
+
+@media (min-width: 992px) {
+  h3 {
+    font-size: 30px;
+  }
+
+  /* form */
+  .section__form {
+    height: 20rem;
+  }
+
+  .form-group {
+    width: 500px;
+    margin: auto;
+  }
+}
